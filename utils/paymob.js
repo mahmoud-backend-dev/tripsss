@@ -98,7 +98,7 @@ module.exports = {
 const fetch = require('node-fetch');
 
 
-const API_KEY_PAYMOB = process.env.API_KEY_PAYMOB;
+//const API_KEY_PAYMOB = process.env.API_KEY_PAYMOB;
 const integrationID = 4536791;
 
 async function authenticateWithPaymob() {
