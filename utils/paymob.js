@@ -175,9 +175,6 @@ async function generatePaymentKey(token, orderId, obj) {
 
 async function cardPayment(obj, amount) {
   try {
-    // if (!API_KEY_PAYMOB) {
-    //   throw new Error('API_KEY_PAYMOB is not set');
-    // }
 
     const authResponse = await authenticateWithPaymob();
     const token = authResponse.token;
